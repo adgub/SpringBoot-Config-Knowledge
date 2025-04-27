@@ -28,3 +28,4 @@ target/
 *.iml
 *.imi
 docker/
+application-bendidev.properties
