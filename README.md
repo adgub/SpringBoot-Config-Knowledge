@@ -3,7 +3,9 @@
 
 ##### docker创建网络
 
+```shell
 docker network create knowledge-net
+```
 
 ##### **docker配置postgresql** 
 
