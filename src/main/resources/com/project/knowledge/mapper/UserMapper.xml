@@ -11,10 +11,10 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
     </resultMap>
 
    <select id="getUserInfoByName" parameterType="string" resultMap="UserInfoResult">
-        select *
-        from tb_user
+        SELECT *
+        FROM TB_USER
         <where>
-          and user_name = #{userName}
+          AND USER_NAME = #{userName}
         </where>
    </select>
     
